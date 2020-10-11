@@ -1,0 +1,2515 @@
+// !$*UTF8*$!
+{
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      "Biometrics::Biometrics" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_182";
+         buildPhases = (
+            "OBJ_185",
+            "OBJ_188"
+         );
+         dependencies = (
+            "OBJ_190"
+         );
+         name = "Biometrics";
+         productName = "Biometrics";
+         productReference = "Biometrics::Biometrics::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "Biometrics::Biometrics::Product" = {
+         isa = "PBXFileReference";
+         path = "Biometrics.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "Biometrics::BiometricsPackageTests::ProductTarget" = {
+         isa = "PBXAggregateTarget";
+         buildConfigurationList = "OBJ_199";
+         buildPhases = (
+         );
+         dependencies = (
+            "OBJ_202"
+         );
+         name = "BiometricsPackageTests";
+         productName = "BiometricsPackageTests";
+      };
+      "Biometrics::BiometricsTests" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_204";
+         buildPhases = (
+            "OBJ_207",
+            "OBJ_210"
+         );
+         dependencies = (
+            "OBJ_213",
+            "OBJ_214"
+         );
+         name = "BiometricsTests";
+         productName = "BiometricsTests";
+         productReference = "Biometrics::BiometricsTests::Product";
+         productType = "com.apple.product-type.bundle.unit-test";
+      };
+      "Biometrics::BiometricsTests::Product" = {
+         isa = "PBXFileReference";
+         path = "BiometricsTests.xctest";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "Biometrics::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_193";
+         buildPhases = (
+            "OBJ_196"
+         );
+         dependencies = (
+         );
+         name = "BiometricsPackageDescription";
+         productName = "BiometricsPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "GRDB::GRDB" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_215";
+         buildPhases = (
+            "OBJ_218",
+            "OBJ_356"
+         );
+         dependencies = (
+         );
+         name = "GRDB";
+         productName = "GRDB";
+         productReference = "GRDB::GRDB::Product";
+         productType = "com.apple.product-type.framework";
+      };
+      "GRDB::GRDB::Product" = {
+         isa = "PBXFileReference";
+         path = "GRDB.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "GRDB::SwiftPMPackageDescription" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_358";
+         buildPhases = (
+            "OBJ_361"
+         );
+         dependencies = (
+         );
+         name = "GRDBPackageDescription";
+         productName = "GRDBPackageDescription";
+         productType = "com.apple.product-type.framework";
+      };
+      "OBJ_1" = {
+         isa = "PBXProject";
+         attributes = {
+            LastSwiftMigration = "9999";
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = "OBJ_2";
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "en";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en"
+         );
+         mainGroup = "OBJ_5";
+         productRefGroup = "OBJ_175";
+         projectDirPath = ".";
+         targets = (
+            "Biometrics::Biometrics",
+            "Biometrics::SwiftPMPackageDescription",
+            "Biometrics::BiometricsPackageTests::ProductTarget",
+            "Biometrics::BiometricsTests",
+            "GRDB::GRDB",
+            "GRDB::SwiftPMPackageDescription"
+         );
+      };
+      "OBJ_10" = {
+         isa = "PBXFileReference";
+         path = "Database.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_100" = {
+         isa = "PBXFileReference";
+         path = "HasOneAssociation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_101" = {
+         isa = "PBXFileReference";
+         path = "HasOneThroughAssociation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_102" = {
+         isa = "PBXFileReference";
+         path = "QueryInterfaceRequest+Association.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_103" = {
+         isa = "PBXFileReference";
+         path = "QueryInterfaceRequest.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_104" = {
+         isa = "PBXFileReference";
+         path = "RequestProtocols.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_105" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_106",
+            "OBJ_107",
+            "OBJ_108",
+            "OBJ_109",
+            "OBJ_110",
+            "OBJ_111",
+            "OBJ_112",
+            "OBJ_113",
+            "OBJ_114",
+            "OBJ_115",
+            "OBJ_116",
+            "OBJ_117",
+            "OBJ_118",
+            "OBJ_119",
+            "OBJ_120",
+            "OBJ_121",
+            "OBJ_122",
+            "OBJ_123",
+            "OBJ_124",
+            "OBJ_125",
+            "OBJ_126"
+         );
+         name = "SQL";
+         path = "SQL";
+         sourceTree = "<group>";
+      };
+      "OBJ_106" = {
+         isa = "PBXFileReference";
+         path = "Column.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_107" = {
+         isa = "PBXFileReference";
+         path = "DatabasePromise.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_108" = {
+         isa = "PBXFileReference";
+         path = "SQLAssociation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_109" = {
+         isa = "PBXFileReference";
+         path = "SQLCollatedExpression.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_11" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_12"
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_110" = {
+         isa = "PBXFileReference";
+         path = "SQLCollection.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_111" = {
+         isa = "PBXFileReference";
+         path = "SQLCollectionVisitor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_112" = {
+         isa = "PBXFileReference";
+         path = "SQLExpressible.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_113" = {
+         isa = "PBXFileReference";
+         path = "SQLExpression+QueryInterface.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_114" = {
+         isa = "PBXFileReference";
+         path = "SQLExpression.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_115" = {
+         isa = "PBXFileReference";
+         path = "SQLExpressionVisitor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_116" = {
+         isa = "PBXFileReference";
+         path = "SQLForeignKeyRequest.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_117" = {
+         isa = "PBXFileReference";
+         path = "SQLFunctions.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_118" = {
+         isa = "PBXFileReference";
+         path = "SQLOperators.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_119" = {
+         isa = "PBXFileReference";
+         path = "SQLOrdering.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_12" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_13",
+            "OBJ_14"
+         );
+         name = "BiometricsTests";
+         path = "Tests/BiometricsTests";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_120" = {
+         isa = "PBXFileReference";
+         path = "SQLOrderingTermVisitor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_121" = {
+         isa = "PBXFileReference";
+         path = "SQLQuery.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_122" = {
+         isa = "PBXFileReference";
+         path = "SQLRelation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_123" = {
+         isa = "PBXFileReference";
+         path = "SQLSelectable+QueryInterface.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_124" = {
+         isa = "PBXFileReference";
+         path = "SQLSelectable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_125" = {
+         isa = "PBXFileReference";
+         path = "SQLSelectableVisitor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_126" = {
+         isa = "PBXFileReference";
+         path = "SQLSpecificExpressible+QueryInterface.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_127" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_128",
+            "OBJ_129",
+            "OBJ_130",
+            "OBJ_131",
+            "OBJ_132",
+            "OBJ_133",
+            "OBJ_134",
+            "OBJ_135",
+            "OBJ_136"
+         );
+         name = "SQLGeneration";
+         path = "SQLGeneration";
+         sourceTree = "<group>";
+      };
+      "OBJ_128" = {
+         isa = "PBXFileReference";
+         path = "SQLCollectionGenerator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_129" = {
+         isa = "PBXFileReference";
+         path = "SQLExpressionGenerator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_13" = {
+         isa = "PBXFileReference";
+         path = "BiometricsTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_130" = {
+         isa = "PBXFileReference";
+         path = "SQLGenerationContext.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_131" = {
+         isa = "PBXFileReference";
+         path = "SQLOrderingGenerator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_132" = {
+         isa = "PBXFileReference";
+         path = "SQLPreparedRequestGenerator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_133" = {
+         isa = "PBXFileReference";
+         path = "SQLQueryGenerator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_134" = {
+         isa = "PBXFileReference";
+         path = "SQLRequestGenerator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_135" = {
+         isa = "PBXFileReference";
+         path = "SQLSelectableCountGenerator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_136" = {
+         isa = "PBXFileReference";
+         path = "SQLSelectableResultColumnGenerator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_137" = {
+         isa = "PBXFileReference";
+         path = "SQLInterpolation+QueryInterface.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_138" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_139",
+            "OBJ_140"
+         );
+         name = "Schema";
+         path = "Schema";
+         sourceTree = "<group>";
+      };
+      "OBJ_139" = {
+         isa = "PBXFileReference";
+         path = "TableDefinition.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_14" = {
+         isa = "PBXFileReference";
+         path = "XCTestManifests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_140" = {
+         isa = "PBXFileReference";
+         path = "VirtualTableModule.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_141" = {
+         isa = "PBXFileReference";
+         path = "TableRecord+Association.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_142" = {
+         isa = "PBXFileReference";
+         path = "TableRecord+QueryInterfaceRequest.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_143" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_144",
+            "OBJ_145",
+            "OBJ_146",
+            "OBJ_147",
+            "OBJ_148",
+            "OBJ_149",
+            "OBJ_150",
+            "OBJ_151"
+         );
+         name = "Record";
+         path = "Record";
+         sourceTree = "<group>";
+      };
+      "OBJ_144" = {
+         isa = "PBXFileReference";
+         path = "EncodableRecord+Encodable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_145" = {
+         isa = "PBXFileReference";
+         path = "EncodableRecord.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_146" = {
+         isa = "PBXFileReference";
+         path = "FetchableRecord+Decodable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_147" = {
+         isa = "PBXFileReference";
+         path = "FetchableRecord+TableRecord.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_148" = {
+         isa = "PBXFileReference";
+         path = "FetchableRecord.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_149" = {
+         isa = "PBXFileReference";
+         path = "PersistableRecord.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_15" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_16"
+         );
+         name = "Dependencies";
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_150" = {
+         isa = "PBXFileReference";
+         path = "Record.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_151" = {
+         isa = "PBXFileReference";
+         path = "TableRecord.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_152" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_153",
+            "OBJ_154",
+            "OBJ_155",
+            "OBJ_156",
+            "OBJ_157",
+            "OBJ_158",
+            "OBJ_159",
+            "OBJ_160",
+            "OBJ_161",
+            "OBJ_162"
+         );
+         name = "Utils";
+         path = "Utils";
+         sourceTree = "<group>";
+      };
+      "OBJ_153" = {
+         isa = "PBXFileReference";
+         path = "Inflections+English.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_154" = {
+         isa = "PBXFileReference";
+         path = "Inflections.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_155" = {
+         isa = "PBXFileReference";
+         path = "LockedBox.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_156" = {
+         isa = "PBXFileReference";
+         path = "OnDemandFuture.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_157" = {
+         isa = "PBXFileReference";
+         path = "OrderedDictionary.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_158" = {
+         isa = "PBXFileReference";
+         path = "Pool.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_159" = {
+         isa = "PBXFileReference";
+         path = "ReadWriteBox.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_16" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_17",
+            "OBJ_18",
+            "OBJ_174"
+         );
+         name = "GRDB 5.0.2";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_160" = {
+         isa = "PBXFileReference";
+         path = "ReceiveValuesOn.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_161" = {
+         isa = "PBXFileReference";
+         path = "Refinable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_162" = {
+         isa = "PBXFileReference";
+         path = "Utils.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_163" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_164",
+            "OBJ_165",
+            "OBJ_166",
+            "OBJ_167",
+            "OBJ_168"
+         );
+         name = "ValueObservation";
+         path = "ValueObservation";
+         sourceTree = "<group>";
+      };
+      "OBJ_164" = {
+         isa = "PBXFileReference";
+         path = "DatabaseCancellable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_165" = {
+         isa = "PBXFileReference";
+         path = "ValueObservation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_166" = {
+         isa = "PBXFileReference";
+         path = "ValueObservationScheduler.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_167" = {
+         isa = "PBXFileReference";
+         path = "ValueObserver.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_168" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_169",
+            "OBJ_170",
+            "OBJ_171",
+            "OBJ_172",
+            "OBJ_173"
+         );
+         name = "ValueReducer";
+         path = "ValueReducer";
+         sourceTree = "<group>";
+      };
+      "OBJ_169" = {
+         isa = "PBXFileReference";
+         path = "Fetch.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_17" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "CSQLite";
+         path = ".build/checkouts/GRDB.swift/Sources/CSQLite";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_170" = {
+         isa = "PBXFileReference";
+         path = "Map.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_171" = {
+         isa = "PBXFileReference";
+         path = "RemoveDuplicates.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_172" = {
+         isa = "PBXFileReference";
+         path = "Trace.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_173" = {
+         isa = "PBXFileReference";
+         path = "ValueReducer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_174" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/lramos/Library/backup/Dropbox/critical/koalascent/Biometrics/.build/checkouts/GRDB.swift/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_175" = {
+         isa = "PBXGroup";
+         children = (
+            "Biometrics::Biometrics::Product",
+            "GRDB::GRDB::Product",
+            "Biometrics::BiometricsTests::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      "OBJ_179" = {
+         isa = "PBXFileReference";
+         path = "LICENSE";
+         sourceTree = "<group>";
+      };
+      "OBJ_18" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_19",
+            "OBJ_73",
+            "OBJ_74",
+            "OBJ_85",
+            "OBJ_87",
+            "OBJ_90",
+            "OBJ_143",
+            "OBJ_152",
+            "OBJ_163"
+         );
+         name = "GRDB";
+         path = ".build/checkouts/GRDB.swift/GRDB";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_180" = {
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
+      };
+      "OBJ_182" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_183",
+            "OBJ_184"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_183" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/GRDB.swift/Sources/CSQLite"
+            );
+            INFOPLIST_FILE = "Biometrics.xcodeproj/Biometrics_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "12.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Biometrics";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Biometrics";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_184" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/GRDB.swift/Sources/CSQLite"
+            );
+            INFOPLIST_FILE = "Biometrics.xcodeproj/Biometrics_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "12.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Biometrics";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Biometrics";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_185" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_186",
+            "OBJ_187"
+         );
+      };
+      "OBJ_186" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_9";
+      };
+      "OBJ_187" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_10";
+      };
+      "OBJ_188" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_189"
+         );
+      };
+      "OBJ_189" = {
+         isa = "PBXBuildFile";
+         fileRef = "GRDB::GRDB::Product";
+      };
+      "OBJ_19" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_20",
+            "OBJ_21",
+            "OBJ_22",
+            "OBJ_23",
+            "OBJ_24",
+            "OBJ_25",
+            "OBJ_26",
+            "OBJ_27",
+            "OBJ_28",
+            "OBJ_29",
+            "OBJ_30",
+            "OBJ_31",
+            "OBJ_32",
+            "OBJ_33",
+            "OBJ_34",
+            "OBJ_35",
+            "OBJ_36",
+            "OBJ_37",
+            "OBJ_38",
+            "OBJ_39",
+            "OBJ_40",
+            "OBJ_41",
+            "OBJ_42",
+            "OBJ_43",
+            "OBJ_44",
+            "OBJ_45",
+            "OBJ_46",
+            "OBJ_47",
+            "OBJ_48",
+            "OBJ_49",
+            "OBJ_50",
+            "OBJ_51",
+            "OBJ_52",
+            "OBJ_72"
+         );
+         name = "Core";
+         path = "Core";
+         sourceTree = "<group>";
+      };
+      "OBJ_190" = {
+         isa = "PBXTargetDependency";
+         target = "GRDB::GRDB";
+      };
+      "OBJ_193" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_194",
+            "OBJ_195"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_194" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode12.0.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.3.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_195" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode12.0.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.3.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_196" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_197"
+         );
+      };
+      "OBJ_197" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_199" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_200",
+            "OBJ_201"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_2" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_3",
+            "OBJ_4"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_20" = {
+         isa = "PBXFileReference";
+         path = "Configuration.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_200" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
+      };
+      "OBJ_201" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_202" = {
+         isa = "PBXTargetDependency";
+         target = "Biometrics::BiometricsTests";
+      };
+      "OBJ_204" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_205",
+            "OBJ_206"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_205" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/GRDB.swift/Sources/CSQLite"
+            );
+            INFOPLIST_FILE = "Biometrics.xcodeproj/BiometricsTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "BiometricsTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_206" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/GRDB.swift/Sources/CSQLite"
+            );
+            INFOPLIST_FILE = "Biometrics.xcodeproj/BiometricsTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "BiometricsTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_207" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_208",
+            "OBJ_209"
+         );
+      };
+      "OBJ_208" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
+      };
+      "OBJ_209" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_14";
+      };
+      "OBJ_21" = {
+         isa = "PBXFileReference";
+         path = "Cursor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_210" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_211",
+            "OBJ_212"
+         );
+      };
+      "OBJ_211" = {
+         isa = "PBXBuildFile";
+         fileRef = "Biometrics::Biometrics::Product";
+      };
+      "OBJ_212" = {
+         isa = "PBXBuildFile";
+         fileRef = "GRDB::GRDB::Product";
+      };
+      "OBJ_213" = {
+         isa = "PBXTargetDependency";
+         target = "Biometrics::Biometrics";
+      };
+      "OBJ_214" = {
+         isa = "PBXTargetDependency";
+         target = "GRDB::GRDB";
+      };
+      "OBJ_215" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_216",
+            "OBJ_217"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_216" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/GRDB.swift/Sources/CSQLite"
+            );
+            INFOPLIST_FILE = "Biometrics.xcodeproj/GRDB_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "10.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "GRDB";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "GRDB";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_217" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(SRCROOT)/.build/checkouts/GRDB.swift/Sources/CSQLite"
+            );
+            INFOPLIST_FILE = "Biometrics.xcodeproj/GRDB_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "10.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "GRDB";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "GRDB";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_218" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_219",
+            "OBJ_220",
+            "OBJ_221",
+            "OBJ_222",
+            "OBJ_223",
+            "OBJ_224",
+            "OBJ_225",
+            "OBJ_226",
+            "OBJ_227",
+            "OBJ_228",
+            "OBJ_229",
+            "OBJ_230",
+            "OBJ_231",
+            "OBJ_232",
+            "OBJ_233",
+            "OBJ_234",
+            "OBJ_235",
+            "OBJ_236",
+            "OBJ_237",
+            "OBJ_238",
+            "OBJ_239",
+            "OBJ_240",
+            "OBJ_241",
+            "OBJ_242",
+            "OBJ_243",
+            "OBJ_244",
+            "OBJ_245",
+            "OBJ_246",
+            "OBJ_247",
+            "OBJ_248",
+            "OBJ_249",
+            "OBJ_250",
+            "OBJ_251",
+            "OBJ_252",
+            "OBJ_253",
+            "OBJ_254",
+            "OBJ_255",
+            "OBJ_256",
+            "OBJ_257",
+            "OBJ_258",
+            "OBJ_259",
+            "OBJ_260",
+            "OBJ_261",
+            "OBJ_262",
+            "OBJ_263",
+            "OBJ_264",
+            "OBJ_265",
+            "OBJ_266",
+            "OBJ_267",
+            "OBJ_268",
+            "OBJ_269",
+            "OBJ_270",
+            "OBJ_271",
+            "OBJ_272",
+            "OBJ_273",
+            "OBJ_274",
+            "OBJ_275",
+            "OBJ_276",
+            "OBJ_277",
+            "OBJ_278",
+            "OBJ_279",
+            "OBJ_280",
+            "OBJ_281",
+            "OBJ_282",
+            "OBJ_283",
+            "OBJ_284",
+            "OBJ_285",
+            "OBJ_286",
+            "OBJ_287",
+            "OBJ_288",
+            "OBJ_289",
+            "OBJ_290",
+            "OBJ_291",
+            "OBJ_292",
+            "OBJ_293",
+            "OBJ_294",
+            "OBJ_295",
+            "OBJ_296",
+            "OBJ_297",
+            "OBJ_298",
+            "OBJ_299",
+            "OBJ_300",
+            "OBJ_301",
+            "OBJ_302",
+            "OBJ_303",
+            "OBJ_304",
+            "OBJ_305",
+            "OBJ_306",
+            "OBJ_307",
+            "OBJ_308",
+            "OBJ_309",
+            "OBJ_310",
+            "OBJ_311",
+            "OBJ_312",
+            "OBJ_313",
+            "OBJ_314",
+            "OBJ_315",
+            "OBJ_316",
+            "OBJ_317",
+            "OBJ_318",
+            "OBJ_319",
+            "OBJ_320",
+            "OBJ_321",
+            "OBJ_322",
+            "OBJ_323",
+            "OBJ_324",
+            "OBJ_325",
+            "OBJ_326",
+            "OBJ_327",
+            "OBJ_328",
+            "OBJ_329",
+            "OBJ_330",
+            "OBJ_331",
+            "OBJ_332",
+            "OBJ_333",
+            "OBJ_334",
+            "OBJ_335",
+            "OBJ_336",
+            "OBJ_337",
+            "OBJ_338",
+            "OBJ_339",
+            "OBJ_340",
+            "OBJ_341",
+            "OBJ_342",
+            "OBJ_343",
+            "OBJ_344",
+            "OBJ_345",
+            "OBJ_346",
+            "OBJ_347",
+            "OBJ_348",
+            "OBJ_349",
+            "OBJ_350",
+            "OBJ_351",
+            "OBJ_352",
+            "OBJ_353",
+            "OBJ_354",
+            "OBJ_355"
+         );
+      };
+      "OBJ_219" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_20";
+      };
+      "OBJ_22" = {
+         isa = "PBXFileReference";
+         path = "Database+Schema.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_220" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_21";
+      };
+      "OBJ_221" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_22";
+      };
+      "OBJ_222" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_23";
+      };
+      "OBJ_223" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_24";
+      };
+      "OBJ_224" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_25";
+      };
+      "OBJ_225" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_26";
+      };
+      "OBJ_226" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
+      };
+      "OBJ_227" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_28";
+      };
+      "OBJ_228" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_29";
+      };
+      "OBJ_229" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_30";
+      };
+      "OBJ_23" = {
+         isa = "PBXFileReference";
+         path = "Database+Statements.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_230" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_31";
+      };
+      "OBJ_231" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_32";
+      };
+      "OBJ_232" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_33";
+      };
+      "OBJ_233" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_34";
+      };
+      "OBJ_234" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_35";
+      };
+      "OBJ_235" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_36";
+      };
+      "OBJ_236" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_37";
+      };
+      "OBJ_237" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_38";
+      };
+      "OBJ_238" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_39";
+      };
+      "OBJ_239" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_40";
+      };
+      "OBJ_24" = {
+         isa = "PBXFileReference";
+         path = "Database.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_240" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_41";
+      };
+      "OBJ_241" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_42";
+      };
+      "OBJ_242" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_43";
+      };
+      "OBJ_243" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_44";
+      };
+      "OBJ_244" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_45";
+      };
+      "OBJ_245" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_46";
+      };
+      "OBJ_246" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_47";
+      };
+      "OBJ_247" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_48";
+      };
+      "OBJ_248" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_49";
+      };
+      "OBJ_249" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_50";
+      };
+      "OBJ_25" = {
+         isa = "PBXFileReference";
+         path = "DatabaseCollation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_250" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_51";
+      };
+      "OBJ_251" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_54";
+      };
+      "OBJ_252" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_56";
+      };
+      "OBJ_253" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_57";
+      };
+      "OBJ_254" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_58";
+      };
+      "OBJ_255" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_59";
+      };
+      "OBJ_256" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_60";
+      };
+      "OBJ_257" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_61";
+      };
+      "OBJ_258" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_62";
+      };
+      "OBJ_259" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_63";
+      };
+      "OBJ_26" = {
+         isa = "PBXFileReference";
+         path = "DatabaseError.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_260" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_64";
+      };
+      "OBJ_261" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_65";
+      };
+      "OBJ_262" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_66";
+      };
+      "OBJ_263" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_68";
+      };
+      "OBJ_264" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_69";
+      };
+      "OBJ_265" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_70";
+      };
+      "OBJ_266" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_71";
+      };
+      "OBJ_267" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_72";
+      };
+      "OBJ_268" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_73";
+      };
+      "OBJ_269" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_75";
+      };
+      "OBJ_27" = {
+         isa = "PBXFileReference";
+         path = "DatabaseFunction.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_270" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_76";
+      };
+      "OBJ_271" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_77";
+      };
+      "OBJ_272" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_78";
+      };
+      "OBJ_273" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_79";
+      };
+      "OBJ_274" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_80";
+      };
+      "OBJ_275" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_81";
+      };
+      "OBJ_276" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_82";
+      };
+      "OBJ_277" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_83";
+      };
+      "OBJ_278" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_84";
+      };
+      "OBJ_279" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_86";
+      };
+      "OBJ_28" = {
+         isa = "PBXFileReference";
+         path = "DatabasePool.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_280" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_88";
+      };
+      "OBJ_281" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_89";
+      };
+      "OBJ_282" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_91";
+      };
+      "OBJ_283" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_92";
+      };
+      "OBJ_284" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_95";
+      };
+      "OBJ_285" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_96";
+      };
+      "OBJ_286" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_97";
+      };
+      "OBJ_287" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_98";
+      };
+      "OBJ_288" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_99";
+      };
+      "OBJ_289" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_100";
+      };
+      "OBJ_29" = {
+         isa = "PBXFileReference";
+         path = "DatabasePublishers.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_290" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_101";
+      };
+      "OBJ_291" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_102";
+      };
+      "OBJ_292" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_103";
+      };
+      "OBJ_293" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_104";
+      };
+      "OBJ_294" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_106";
+      };
+      "OBJ_295" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_107";
+      };
+      "OBJ_296" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_108";
+      };
+      "OBJ_297" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_109";
+      };
+      "OBJ_298" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_110";
+      };
+      "OBJ_299" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_111";
+      };
+      "OBJ_3" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1",
+               "DEBUG=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE",
+               "DEBUG"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      "OBJ_30" = {
+         isa = "PBXFileReference";
+         path = "DatabaseQueue.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_300" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_112";
+      };
+      "OBJ_301" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_113";
+      };
+      "OBJ_302" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_114";
+      };
+      "OBJ_303" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_115";
+      };
+      "OBJ_304" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_116";
+      };
+      "OBJ_305" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_117";
+      };
+      "OBJ_306" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_118";
+      };
+      "OBJ_307" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_119";
+      };
+      "OBJ_308" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_120";
+      };
+      "OBJ_309" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_121";
+      };
+      "OBJ_31" = {
+         isa = "PBXFileReference";
+         path = "DatabaseReader.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_310" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_122";
+      };
+      "OBJ_311" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_123";
+      };
+      "OBJ_312" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_124";
+      };
+      "OBJ_313" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_125";
+      };
+      "OBJ_314" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_126";
+      };
+      "OBJ_315" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_128";
+      };
+      "OBJ_316" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_129";
+      };
+      "OBJ_317" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_130";
+      };
+      "OBJ_318" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_131";
+      };
+      "OBJ_319" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_132";
+      };
+      "OBJ_32" = {
+         isa = "PBXFileReference";
+         path = "DatabaseRegion.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_320" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_133";
+      };
+      "OBJ_321" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_134";
+      };
+      "OBJ_322" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_135";
+      };
+      "OBJ_323" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_136";
+      };
+      "OBJ_324" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_137";
+      };
+      "OBJ_325" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_139";
+      };
+      "OBJ_326" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_140";
+      };
+      "OBJ_327" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_141";
+      };
+      "OBJ_328" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_142";
+      };
+      "OBJ_329" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_144";
+      };
+      "OBJ_33" = {
+         isa = "PBXFileReference";
+         path = "DatabaseRegionObservation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_330" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_145";
+      };
+      "OBJ_331" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_146";
+      };
+      "OBJ_332" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_147";
+      };
+      "OBJ_333" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_148";
+      };
+      "OBJ_334" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_149";
+      };
+      "OBJ_335" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_150";
+      };
+      "OBJ_336" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_151";
+      };
+      "OBJ_337" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_153";
+      };
+      "OBJ_338" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_154";
+      };
+      "OBJ_339" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_155";
+      };
+      "OBJ_34" = {
+         isa = "PBXFileReference";
+         path = "DatabaseSchemaCache.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_340" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_156";
+      };
+      "OBJ_341" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_157";
+      };
+      "OBJ_342" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_158";
+      };
+      "OBJ_343" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_159";
+      };
+      "OBJ_344" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_160";
+      };
+      "OBJ_345" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_161";
+      };
+      "OBJ_346" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_162";
+      };
+      "OBJ_347" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_164";
+      };
+      "OBJ_348" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_165";
+      };
+      "OBJ_349" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_166";
+      };
+      "OBJ_35" = {
+         isa = "PBXFileReference";
+         path = "DatabaseSnapshot.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_350" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_167";
+      };
+      "OBJ_351" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_169";
+      };
+      "OBJ_352" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_170";
+      };
+      "OBJ_353" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_171";
+      };
+      "OBJ_354" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_172";
+      };
+      "OBJ_355" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_173";
+      };
+      "OBJ_356" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_358" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_359",
+            "OBJ_360"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_359" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode12.0.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.2.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_36" = {
+         isa = "PBXFileReference";
+         path = "DatabaseValue.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_360" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode12.0.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.2.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_361" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_362"
+         );
+      };
+      "OBJ_362" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_174";
+      };
+      "OBJ_37" = {
+         isa = "PBXFileReference";
+         path = "DatabaseValueConversion.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_38" = {
+         isa = "PBXFileReference";
+         path = "DatabaseValueConvertible.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_39" = {
+         isa = "PBXFileReference";
+         path = "DatabaseWriter.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_4" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            GCC_PREPROCESSOR_DEFINITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE=1"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+               "-DXcode"
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)",
+               "SWIFT_PACKAGE"
+            );
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      "OBJ_40" = {
+         isa = "PBXFileReference";
+         path = "FetchRequest.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_41" = {
+         isa = "PBXFileReference";
+         path = "FetchRequestVisitor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_42" = {
+         isa = "PBXFileReference";
+         path = "Row.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_43" = {
+         isa = "PBXFileReference";
+         path = "RowAdapter.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_44" = {
+         isa = "PBXFileReference";
+         path = "SQLInterpolation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_45" = {
+         isa = "PBXFileReference";
+         path = "SQLLiteral.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_46" = {
+         isa = "PBXFileReference";
+         path = "SQLRequest.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_47" = {
+         isa = "PBXFileReference";
+         path = "SchedulingWatchdog.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_48" = {
+         isa = "PBXFileReference";
+         path = "SerializedDatabase.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_49" = {
+         isa = "PBXFileReference";
+         path = "Statement.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_5" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_6",
+            "OBJ_7",
+            "OBJ_11",
+            "OBJ_15",
+            "OBJ_175",
+            "OBJ_179",
+            "OBJ_180"
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      "OBJ_50" = {
+         isa = "PBXFileReference";
+         path = "StatementAuthorizer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_51" = {
+         isa = "PBXFileReference";
+         path = "StatementColumnConvertible.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_52" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_53",
+            "OBJ_55",
+            "OBJ_67"
+         );
+         name = "Support";
+         path = "Support";
+         sourceTree = "<group>";
+      };
+      "OBJ_53" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_54"
+         );
+         name = "CoreGraphics";
+         path = "CoreGraphics";
+         sourceTree = "<group>";
+      };
+      "OBJ_54" = {
+         isa = "PBXFileReference";
+         path = "CGFloat.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_55" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_56",
+            "OBJ_57",
+            "OBJ_58",
+            "OBJ_59",
+            "OBJ_60",
+            "OBJ_61",
+            "OBJ_62",
+            "OBJ_63",
+            "OBJ_64",
+            "OBJ_65",
+            "OBJ_66"
+         );
+         name = "Foundation";
+         path = "Foundation";
+         sourceTree = "<group>";
+      };
+      "OBJ_56" = {
+         isa = "PBXFileReference";
+         path = "Data.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_57" = {
+         isa = "PBXFileReference";
+         path = "DatabaseDateComponents.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_58" = {
+         isa = "PBXFileReference";
+         path = "DatabaseValueConvertible+ReferenceConvertible.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_59" = {
+         isa = "PBXFileReference";
+         path = "Date.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_6" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_60" = {
+         isa = "PBXFileReference";
+         path = "NSData.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_61" = {
+         isa = "PBXFileReference";
+         path = "NSNull.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_62" = {
+         isa = "PBXFileReference";
+         path = "NSNumber.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_63" = {
+         isa = "PBXFileReference";
+         path = "NSString.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_64" = {
+         isa = "PBXFileReference";
+         path = "SQLiteDateParser.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_65" = {
+         isa = "PBXFileReference";
+         path = "URL.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_66" = {
+         isa = "PBXFileReference";
+         path = "UUID.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_67" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_68",
+            "OBJ_69",
+            "OBJ_70",
+            "OBJ_71"
+         );
+         name = "StandardLibrary";
+         path = "StandardLibrary";
+         sourceTree = "<group>";
+      };
+      "OBJ_68" = {
+         isa = "PBXFileReference";
+         path = "DatabaseValueConvertible+Decodable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_69" = {
+         isa = "PBXFileReference";
+         path = "DatabaseValueConvertible+Encodable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_7" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_8"
+         );
+         name = "Sources";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_70" = {
+         isa = "PBXFileReference";
+         path = "DatabaseValueConvertible+RawRepresentable.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_71" = {
+         isa = "PBXFileReference";
+         path = "StandardLibrary.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_72" = {
+         isa = "PBXFileReference";
+         path = "TransactionObserver.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_73" = {
+         isa = "PBXFileReference";
+         path = "Export.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_74" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_75",
+            "OBJ_76",
+            "OBJ_77",
+            "OBJ_78",
+            "OBJ_79",
+            "OBJ_80",
+            "OBJ_81",
+            "OBJ_82",
+            "OBJ_83",
+            "OBJ_84"
+         );
+         name = "FTS";
+         path = "FTS";
+         sourceTree = "<group>";
+      };
+      "OBJ_75" = {
+         isa = "PBXFileReference";
+         path = "FTS3.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_76" = {
+         isa = "PBXFileReference";
+         path = "FTS3Pattern.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_77" = {
+         isa = "PBXFileReference";
+         path = "FTS3TokenizerDescriptor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_78" = {
+         isa = "PBXFileReference";
+         path = "FTS4.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_79" = {
+         isa = "PBXFileReference";
+         path = "FTS5.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_8" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_9",
+            "OBJ_10"
+         );
+         name = "Biometrics";
+         path = "Sources/Biometrics";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_80" = {
+         isa = "PBXFileReference";
+         path = "FTS5CustomTokenizer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_81" = {
+         isa = "PBXFileReference";
+         path = "FTS5Pattern.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_82" = {
+         isa = "PBXFileReference";
+         path = "FTS5Tokenizer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_83" = {
+         isa = "PBXFileReference";
+         path = "FTS5TokenizerDescriptor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_84" = {
+         isa = "PBXFileReference";
+         path = "FTS5WrapperTokenizer.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_85" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_86"
+         );
+         name = "Fixit";
+         path = "Fixit";
+         sourceTree = "<group>";
+      };
+      "OBJ_86" = {
+         isa = "PBXFileReference";
+         path = "GRDB-5.0.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_87" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_88",
+            "OBJ_89"
+         );
+         name = "Migration";
+         path = "Migration";
+         sourceTree = "<group>";
+      };
+      "OBJ_88" = {
+         isa = "PBXFileReference";
+         path = "DatabaseMigrator.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_89" = {
+         isa = "PBXFileReference";
+         path = "Migration.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_9" = {
+         isa = "PBXFileReference";
+         path = "Biometrics.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_90" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_91",
+            "OBJ_92",
+            "OBJ_93",
+            "OBJ_105",
+            "OBJ_127",
+            "OBJ_137",
+            "OBJ_138",
+            "OBJ_141",
+            "OBJ_142"
+         );
+         name = "QueryInterface";
+         path = "QueryInterface";
+         sourceTree = "<group>";
+      };
+      "OBJ_91" = {
+         isa = "PBXFileReference";
+         path = "FTS3+QueryInterface.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_92" = {
+         isa = "PBXFileReference";
+         path = "FTS5+QueryInterface.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_93" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_94",
+            "OBJ_102",
+            "OBJ_103",
+            "OBJ_104"
+         );
+         name = "Request";
+         path = "Request";
+         sourceTree = "<group>";
+      };
+      "OBJ_94" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_95",
+            "OBJ_96",
+            "OBJ_97",
+            "OBJ_98",
+            "OBJ_99",
+            "OBJ_100",
+            "OBJ_101"
+         );
+         name = "Association";
+         path = "Association";
+         sourceTree = "<group>";
+      };
+      "OBJ_95" = {
+         isa = "PBXFileReference";
+         path = "Association.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_96" = {
+         isa = "PBXFileReference";
+         path = "AssociationAggregate.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_97" = {
+         isa = "PBXFileReference";
+         path = "BelongsToAssociation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_98" = {
+         isa = "PBXFileReference";
+         path = "HasManyAssociation.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_99" = {
+         isa = "PBXFileReference";
+         path = "HasManyThroughAssociation.swift";
+         sourceTree = "<group>";
+      };
+   };
+   rootObject = "OBJ_1";
+}
