@@ -5,7 +5,7 @@
 //  Created by Luiz Ramos on 10/11/20.
 //
 
-import UIKit
+import Foundation
 import GRDB
 
 class Database {
